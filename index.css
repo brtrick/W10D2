@@ -25,6 +25,31 @@ ul.clock-widgit li{
     font-size: 30px;
     padding: 10px;
 }
+
+#tabs-div {
+    border: 2px solid black;
+}
+#tabs-header {
+    display:flex;
+}
+
+#tabs-header li{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100px;
+    margin-bottom: 0;
+}
+#tabs-header li, #tabs-article {
+    background: cyan;
+}
+
+#tabs-article p {
+    margin: 0;
+}
+
 .hidden{
     display: none;
 }

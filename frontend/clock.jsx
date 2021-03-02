@@ -34,7 +34,7 @@ export default class Clock extends React.Component {
     }
 
     componentWillUnmount(){
-        cancelInterval(this.intervalId);
+        clearInterval(this.intervalId);
     }
 }
 

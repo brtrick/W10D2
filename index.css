@@ -1,0 +1,27 @@
+.clock-widgit{
+    font-family: "Orbitron";
+    
+    background-color: orange;
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 10px;
+}
+.clock-date{
+    display: flex;
+    justify-content: space-between;
+}
+.clock-time{
+    display: flex;
+    justify-content: space-between;
+}
+.clock-header{
+    font-family: "Open Sans";
+}
+ul.clock-widgit li{
+    list-style: none;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+}
